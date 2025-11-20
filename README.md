@@ -5,23 +5,36 @@ Accurate-Cyber-Defense-DNS-Traffic-Generator is a cutting-edge cybersecurity too
 It generates realistic DNS query traffic—both benign and malicious—to help security professionals evaluate the resilience, detection capabilities, and performance of DNS servers, 
 firewalls, and monitoring systems.
 
-This tool is ideal for:
+## This tool is ideal for
 
-DNS performance benchmarking
+* DNS performance benchmarking
 
-DNS anomaly detection research
+* DNS anomaly detection research
 
-Cyber defense training and labs
+* Cyber defense training and labs
 
-Blue-team stress simulations
+* Blue-team stress simulations
 
-Testing DNS over UDP, TCP, DoH, and DoT
+* Testing DNS over UDP, TCP, DoH, and DoT
 
-Analyzing resolver behavior under heavy load
+* Analyzing resolver behavior under heavy load
 
 By providing configurable traffic patterns, adjustable query volumes, randomized domain generation, and optional malicious-traffic modes, the generator enables an accurate and safe assessment of DNS security posture. Built for education, research, and defensive testing, it empowers teams to strengthen their DNS-layer cyber defense strategies.
 
+
+## How to clone the repo
+
+```bash
+
 git clone https://github.com/Iankulani/Accurate-Cyber-Defense-DNS-Traffic-Generator.git
 
-
 cd Accurate-Cyber-Defense-DNS-Traffic-Generator
+```
+
+
+## How to run
+```bash
+
+rustic Accurate-Cyber-Defense-DNS-Traffic-Generator.rs
+
+```
